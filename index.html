@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registro a la apreciación del arte</title>
+</head>
+<body class="page--register">
+    <h1>BIENVENIDOS A LA SOCIEDAD DE APRECIACIÓN DEL ARTE</h1>
+    <P>Ven con nosotros para descubrir todas las formas en las que el alma humana se manifiesta en la realidad. Encuentra a otros como tu, en la busqueda de las mejores expresiones artísticas</P>
+    <h2>FORMULARIO DE REGISTRO</h2>
+    <form onsubmit="registro(event)">
+        <label>Nombre:
+            <input type="text" id="nombre" placeholder="Fulanito" required>
+        </label>
+        <label>Edad:
+            <input type="number" id="edad" placeholder="19" required>
+        </label>
+        <label>Email:
+            <input type="email" id="email" placeholder="email@example.com" required>
+        </label>
+        <label>Contraseña:
+            <input type="password" id="contrasenia" placeholder="********" required>
+        </label>
+        <label>Confirmar contraseña:
+            <input type="password" id="confirmar-contrasenia" placeholder="********" required>
+        </label>
+        <button>Registrarme</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
